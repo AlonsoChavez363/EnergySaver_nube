@@ -1,0 +1,24 @@
+/* navbar.css */
+.navbar {
+    background-color: #1a1f26 !important; /* Azul fuerte */
+    padding: 20px 0 !important; /* Hace la barra más ancha */
+}
+
+.navbar .navbar-nav {
+    margin: 0 auto !important;
+}
+
+.navbar .nav-link {
+    color: #c4d7e0 !important; /* Color inicial de los enlaces */
+    font-weight: bold !important;
+    padding: 8px 20px !important;
+    text-align: center !important;
+}
+
+.navbar .nav-link:hover {
+    color: #a3c4bc !important; /* Color al pasar el mouse */
+}
+
+.navbar .nav-link.active {
+    color: #a3c4bc !important; /* Color del enlace activo */
+}

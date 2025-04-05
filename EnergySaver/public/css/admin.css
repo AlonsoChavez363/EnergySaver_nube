@@ -1,0 +1,12 @@
+.nav-link:hover {
+    background-color: #1E90FF;
+    color: white;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .dropdown-toggle:hover {
+    background-color: #1E90FF;
+    color: white;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  

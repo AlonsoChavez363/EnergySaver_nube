@@ -1,0 +1,111 @@
+/* Estilos para el cuerpo de la página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+/* Estilos para el encabezado */
+header {
+    background-color: #1c2833;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+
+
+
+/* Estilos para el contenedor principal */
+.container {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+
+/* Estilos para el contenedor de imágenes */
+.image-container {
+    flex: 1;
+    margin-right: 20px;
+    text-align: center;
+}
+
+.animated-image {
+    width: 100%;
+    display: block;
+}
+
+/* Estilos para el contenedor de información */
+.info {
+    flex: 2;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s;
+}
+
+.info:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.info-text {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #333; 
+    text-align: justify;
+}
+
+/* Estilos para los botones de inicio de sesión y registro */
+.buttons-container {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Centrar verticalmente */
+    margin-top: 20px; /* Espacio entre los botones y el contenido superior */
+}
+  
+.btn {
+    background-color: #0a5c0d; /* Verde primario */
+    border: none; /* Sin borde */
+    color: white; /* Color del texto */
+    padding: 15px 20px; /* Espaciado interno */
+    text-align: center; /* Alinear texto al centro */
+    text-decoration: none; /* Sin decoración de texto */
+    font-size: 16px; /* Tamaño de la fuente */
+    cursor: pointer; /* Cambiar cursor a mano al pasar el ratón */
+    border-radius: 8px; /* Borde redondeado */
+    transition: background-color 0.3s; /* Transición suave de color de fondo */
+}
+  
+.btn:not(:last-child) {
+    margin-right: 10px; /* Margen entre los botones excepto el último */
+}
+  
+.btn:hover {
+    background-color: #45a049; /* Verde más oscuro al pasar el ratón */
+}
+  
+.btn:active {
+    background-color: #3e8e41; /* Verde más oscuro al hacer clic */
+}
+
+.nav-link img {
+    transition: filter 0.3s ease-in-out;
+    filter: grayscale(100%);
+}
+
+.nav-link:hover img {
+    filter: grayscale(0%);
+}

@@ -1,0 +1,125 @@
+/* Calculadora.css */
+
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f2f2f2; /* Light gray */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #4CAF50; /* Verde naturaleza */
+    color: white;
+    margin-bottom: 20px;
+}
+
+
+.title-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.title-container h1 {
+    font-size: 2.5em;
+    color: #4CAF50;
+}
+
+.calculadora-container, .table-section {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffffc0;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.content {
+    margin-bottom: 20px;
+}
+
+.dropdown-input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.dropdown-input-container label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.dropdown-input-container select, 
+.dropdown-input-container input[type="number"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.container label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.container input[type="number"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.buttons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.buttons button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.buttons button:hover {
+    background-color: #45a049;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Mantener los links centrados */
+.navbar-nav {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+
+/* Contenedor del botón "Cerrar sesión" alineado a la derecha */
+.logout-container {
+    margin-left: auto; /* Empuja el botón hacia la derecha */
+    display: flex;
+    align-items: center;
+}
+
+/* Estilo del botón "Cerrar sesión" */

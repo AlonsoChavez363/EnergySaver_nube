@@ -1,0 +1,95 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #2c3e50;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #fff;
+}
+
+.login-container {
+    display: flex;
+    width: 800px;
+    height: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.login-form {
+    background: #1c2833;
+    padding: 30px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; /* Alinea los elementos al centro horizontalmente */
+}
+
+.login-form h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-align: center; /* Centra el texto */
+}
+
+.login-form label {
+    margin-top: 10px;
+    font-size: 14px;
+    width: 100%; /* Asegura que las etiquetas ocupen el ancho completo */
+}
+
+.login-form input[type="email"],
+.login-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #34495e;
+    color: #fff;
+}
+
+.login-form .remember-me {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 100%; /* Asegura que el contenedor ocupe el ancho completo */
+}
+
+.login-form .remember-me input {
+    margin-right: 5px;
+}
+
+/* Contenedor de los botones */
+.login-form .button-container {
+    display: flex;
+    justify-content: space-between; /* Asegura que los botones se distribuyan horizontalmente */
+    width: 100%; /* Asegura que el contenedor ocupe el ancho completo */
+}
+
+/* Botones dentro del contenedor */
+.login-form button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #2980b9;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 45%; /* Ajusta el ancho del botón para que se acomode horizontalmente */
+    text-align: center; /* Centra el texto dentro del botón */
+}
+
+.login-form button:hover {
+    background: #3498db;
+}
+
+.login-bg {
+    flex: 1;
+    background: url('../img/L.gif') no-repeat center center/cover;
+}
+

@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#banner {
+    background-color: #388e3c; /* Color llamativo */
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-size: 50px; /* Tamaño de la letra aumentado a 24px */
+    display: flex;
+    justify-content: center; /* Alinear elementos hacia el centro */
+    align-items: center; /* Alinear elementos verticalmente */
+}
+
+#titulo-secundario {
+    margin: 0; /* Elimina cualquier margen existente */
+    margin-right: 40px; /* Ajustar el espacio entre los títulos */
+    font-size: 40px; /* Tamaño del título secundario */
+}
+
+#logo-container {
+    width: 100px; /* Ancho del contenedor de la imagen */
+    height: 100px; /* Alto del contenedor de la imagen */
+    border: 2px solid white; /* Borde blanco alrededor del contenedor */
+}
+
+#main-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+#videos {
+    flex: 1;
+    margin-top: 20px;
+}
+
+.video-container {
+    margin-bottom: 20px;
+    border: 5px solid #FF69B4; /* Marco llamativo para niños */
+    border-radius: 40px;
+    overflow: hidden;
+    margin: 50px;
+}
+
+#descripcion {
+    flex: 0 0 30%; /* Toma el 30% del espacio disponible */
+    margin-top: 20px;
+    margin-left: 20px; /* Espacio a la izquierda del cuadro de descripción */
+    padding: 20px; /* Espacio interno del cuadro de descripción */
+    border: 5px solid #FF69B4; /* Marco llamativo para niños */
+    border-radius: 10px;
+    font-size: 20px; /* Tamaño del texto ajustado */
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco semi-transparente */
+}
+
+#boton {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: #388e3c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
+
+
